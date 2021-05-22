@@ -1,6 +1,12 @@
-html,
-body {
-  background: #2f3a40;
+:root {
+  --main-color:#FABC55;
+  --second-color:#b385ff;
+  --third-color:#21B667;
+}
+
+html, body {
+/*  background: #2f3a40;*/
+  background: #2b2b33;
   margin: 0px;
   height: 100vh;
 }
@@ -41,8 +47,8 @@ a {
 }
 
 div > #menu-item-1 {
-  /*color: #fec84d;*/
-  color: #ff4a38;
+  color: #fec84d;
+  /*color: #ff4a38;*/
 }
 
 div > #menu-item-2 {
@@ -52,7 +58,7 @@ div > #menu-item-2 {
 
 div > #menu-item-3 {
   /*color: #FF8370;*/
-  color: #fd7f20;
+  color: #b385ff;
 }
 
 @media (max-width: 600px) {
@@ -90,20 +96,8 @@ div > div.flex-item-50 > img {
   border-radius: 8px;
 }
 
-#resume-word {
-  color: #ff4a38;
-}
-
-#reach-out-word {
-  color: #fdb750;
-}
-
-#writings-word {
-  color: #fd7f20;
-}
-
-#qempo-word {
-  color: #fdb750;
+strong {
+  color: var(--main-color);
 }
 
 .two-columns-container {
