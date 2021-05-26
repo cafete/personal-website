@@ -9,7 +9,11 @@
   <body>
     <div class="flex-container main-container">
       <div class="form-container">
-        <h2>Contact me</h2>
+        <h2>Get in touch</h2>
+        <p>
+            Please fill the form below to send me a message. Your email is required only to be able to give
+            you a reply, it won't be used for anything else. I tend to answer most messages within a week.
+        </p>
         <form name="contact" method="POST" data-netlify="true" action="contact-success.html">
             <label>Name</label>
             <input type="text" name="name" required/>   
@@ -17,7 +21,7 @@
             <input type="email" name="email" required/>
             <label>Message</label>
             <textarea name="message" required></textarea>
-            <button type="submit">Send</button>
+            <button class="submit" type="submit">Send</button>
         </form>
       </div>
     </div>
