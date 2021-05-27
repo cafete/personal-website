@@ -81,11 +81,6 @@ h2 {
   text-align: center;
 }
 
-p {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
 div > div.flex-item-50 > img {
   max-width: 100%;
   border-radius: 8px;
@@ -113,9 +108,9 @@ strong {
 
 /*CONTACT STYLES*/
 
-label,input,button {
+/*label,input,button {
   display: block;
-}
+}*/
 
 .form-container {
   width: 28%;
@@ -159,4 +154,11 @@ textarea {
 .central-container {
   min-width: 305px;
   width: 28%
+}
+
+/*WRITINGS & WORK STYLES*/
+
+.central-container-2 {
+  min-width: 305px;
+  width: 40%;
 }
