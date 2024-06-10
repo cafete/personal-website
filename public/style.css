@@ -1,7 +1,7 @@
 :root {
-  --main-color:#FABC55;
-  --second-color:#b385ff;
-  --third-color:#21B667;
+  --main-color:#b9a496;
+  --second-color:#e23d56;
+  --third-color:#2c9daa;
   --light-grey: #d3d3d3;
   --white: #fffff0;
 }
@@ -53,11 +53,11 @@ div > #menu-item-1 {
 }
 
 div > #menu-item-2 {
-  color: var(--main-color);
+  color: var(--second-color);
 }
 
 div > #menu-item-3 {
-  color: #b385ff;
+  color: var(--third-color);
 }
 
 @media (max-width: 600px) {
@@ -87,7 +87,7 @@ div > div.flex-item-50 > img {
 }
 
 strong {
-  color: var(--main-color);
+  color: var(--third-color);
   font-weight: 600;
 }
 
